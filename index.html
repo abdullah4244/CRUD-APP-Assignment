@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" >
+    <title>Crud applciation</title>
+</head>
+<body>
+    
+  <div class="my-container">
+
+ <div class="container form-group">
+     <div class="row form-group">
+         <h2 class="col-12 title">
+             CRUD APPLICATION
+         </h2>
+     </div>
+     <form id="person-form" >
+
+        <div class="row form-group justify-content-between mb-5">
+            <input class="col-5 col-lg-5 col-sm-12 input" type="text" id="name" placeholder="Name" required>
+            <input class="col-5 col-lg-5 col-sm-12 input" type="email" id="email" placeholder="Email" required>
+        </div>
+        <div class="row form-group justify-content-between mb-5">
+            <input class="col-5 col-lg-5 col-sm-12 input" type="text" id="cnic" placeholder="CNIC" required>
+            <input class="col-5 col-lg-5 col-sm-12 input" type="text" id="address" placeholder="Address" required>
+        </div>
+        <div class="row form-group justify-content-center mb-5">
+            <button id="submitbtn" type="submit" class="btn btn-info btn-lg font-weight-bold col-5 ">Submit</button>
+        </div>
+
+        <div class="row form-group justify-content-center mb-5">
+            <button type="button" id="updatebtn" class="btn btn-success btn-lg font-weight-bold col-5 ">Update</button>
+        </div>
+        
+        <ul>
+            <li></li>
+        </ul>
+     </form>
+ </div>
+  </div>
+
+  <div class="table">
+      <div class="container">
+          <div class="row bg-dark">
+              <h2 class="col-2">Name</h2>
+              <h2 class="col-3">Email</h2>
+              <h2 class="col-2">Cnic</h2>
+              <h2 class="col-2">Address</h2>
+               <h2 class="col-3">Action</h2>
+
+              </div>
+            <div class="list">
+               
+            </div>
+          </div>
+      </div>
+  </div>
+
+
+
+<script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>
